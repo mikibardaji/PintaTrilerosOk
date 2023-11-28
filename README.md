@@ -2,7 +2,7 @@
 
 ## Funcions
 
-  · temps, a més petit, més díficil perque l'intercanvi, es realitzà amb menys pausa.
+##### Temps, a més petit, més díficil perque l'intercanvi, es realitzà amb menys pausa.
   
   · PintaCubiletes(int temps) *El temps es la pausa que es fa abans de borrar la pantalla*
   
