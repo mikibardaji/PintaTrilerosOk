@@ -1,6 +1,9 @@
 # PintaTrilerosOk
 
 ## Funcions
+
+  · temps, a més petit, més díficil perque l'intercanvi, es realitzà amb menys pausa.
+  
   · PintaCubiletes(int temps) *El temps es la pausa que es fa abans de borrar la pantalla*
   
   · intercambiarposicion1con2(int temps) *El temps es la pausa que es fa abans de borrar la pantalla. Crida aquesta opció quant el teu joc et demani canvia la primera i la segona posició.*
