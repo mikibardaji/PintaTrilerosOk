@@ -343,7 +343,7 @@ public class Trileros {
     }
     
 
-    public static void intercambiarposicion2con3(int temps) {
+    public static void intercambiarposicion2con3() {
        
         dibujarCubiletes();
         limpiarConsola(temps);
@@ -403,7 +403,7 @@ public class Trileros {
         System.out.println("           *   *        ");        
         System.out.println("          *******        ");                 
 
-        limpiarConsola(); 
+        limpiarConsola(temps); 
         System.out.println("               ***");
         System.out.println("              *   *");
         System.out.println("             *******");
@@ -414,7 +414,7 @@ public class Trileros {
         System.out.println("            *   *        ");        
         System.out.println("           *******        ");                 
 
-        limpiarConsola(); 
+        limpiarConsola(temps); 
         System.out.println("              ***");
         System.out.println("             *   *");
         System.out.println("            *******");
@@ -425,7 +425,7 @@ public class Trileros {
         System.out.println("             *   *        ");        
         System.out.println("            *******        ");                 
 
-        limpiarConsola(); 
+        limpiarConsola(temps); 
         System.out.println("             ***");
         System.out.println("            *   *");
         System.out.println("           *******");
@@ -436,7 +436,17 @@ public class Trileros {
         System.out.println("              *   *        ");        
         System.out.println("             *******        ");                 
 
-        limpiarConsola(); 
+        limpiarConsola(temps); 
+        System.out.println("            ***");
+        System.out.println("           *   *");
+        System.out.println("          *******");
+        System.out.println("  ***                  ");
+        System.out.println(" *   *                ");    
+        System.out.println("*******               ");
+        System.out.println("                ***           ");
+        System.out.println("               *   *        ");        
+        System.out.println("              *******        ");
+        limpiarConsola(temps); 
         System.out.println("           ***");
         System.out.println("          *   *");
         System.out.println("         *******");
@@ -447,7 +457,7 @@ public class Trileros {
         System.out.println("                *   *        ");        
         System.out.println("               *******        ");                 
         
-        limpiarConsola(); 
+        limpiarConsola(temps); 
         System.out.println("          ***");
         System.out.println("         *   *");
         System.out.println("        *******");
@@ -458,7 +468,7 @@ public class Trileros {
         System.out.println("                 *   *        ");        
         System.out.println("                *******        ");                 
         
-        limpiarConsola(); 
+        limpiarConsola(temps); 
         System.out.println("");
         System.out.println("          ***");
         System.out.println("         *   *");
@@ -469,7 +479,7 @@ public class Trileros {
         System.out.println("                *******        ");                 
         System.out.println("");
         
-        limpiarConsola(); 
+        limpiarConsola(temps); 
         System.out.println("");
         System.out.println("");
         System.out.println("          ***");
@@ -479,7 +489,7 @@ public class Trileros {
         System.out.println("                *******        ");                 
         System.out.println("");
         
-        dibujarCubiletes();
+        dibujarCubiletes(temps);
 
 
     }
